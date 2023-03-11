@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "function-1-1.cpp"
 int main()
 {
     int sum_diagonal(int array[4][4]);
