@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "function-1-2.cpp"
 int main()
 {
     int is_identity(int array[10][10]);
