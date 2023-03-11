@@ -9,12 +9,12 @@ int is_identity(int array[10][10])
     bool identity = false;
     if (sum = 10)
     {
-        identity = true
+        identity = true;
     }
     else
     {
-        identity = false
+        identity = false;
     }
 
-    return identity;
+    return sum;
 }
