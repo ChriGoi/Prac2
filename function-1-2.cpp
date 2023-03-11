@@ -16,5 +16,5 @@ int is_identity(int array[10][10])
         identity = false;
     }
 
-    return sum;
+    return identity;
 }
