@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main()
 {
-    int sum_diagonal(int array[4][4]);
-    int array[4][4] = {{1, 2, 3, 4},
-                       {5, 6, 7, 8},
-                       {1, 2, 3, 4},
-                       {5, 6, 7, 8}};
+    int scale = 3;
+    void print_scaled(int array[3][3], int scale);
+    int array[3][3] = {{0, 1, 2},
+                       {3, 4, 5},
+                       {6, 7, 8}};
 
-    sum_diagonal(array);
+    print_scaled(array, scale);
 
     return 0;
 }

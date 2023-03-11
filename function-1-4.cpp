@@ -1,10 +1,16 @@
 #include <stdio.h>
 int sum = 0;
-int sum_diagonal(int array[4][4])
+void print_scaled(int array[3][3], int scale)
 {
-    for (int n = 0; n < 4; n++)
+    for (int n = 0; n < 3; n++)
     {
-        sum = sum + array[n][n];
+        for (int m = 0; m < 3; m++)
+        {
+            array[n][m] = scale * array[n][m];
+            printf("%d ", array[n][m]);
+        }
+        printf("\n");
     }
-    return sum;
+
+    return;
 }
