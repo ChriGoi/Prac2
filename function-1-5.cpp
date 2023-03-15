@@ -1,6 +1,9 @@
 #include <stdio.h>
-int sum = 0;
-void print_summed(int array1[3][3], int array2[3][3])
+#include <string>
+#include <iostream>
+
+int num = stoi(decimal_number);
+void print_binary_str(std::string decimal_number)
 {
     int number = 0;
     for (int n = 0; n < 3; n++)
