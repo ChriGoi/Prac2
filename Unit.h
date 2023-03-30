@@ -1,9 +1,10 @@
-#ifndef UNIT_H
-#define UNIT_H
-#include <string>
+#ifndef Unit.h
+#define Unit .h
+// #include <string>
 class Unit
 {
 private:
+    // none here??
     ;
 
 public:
