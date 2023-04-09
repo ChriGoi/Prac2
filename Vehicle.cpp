@@ -5,7 +5,7 @@
 
 Vehicle::Vehicle(int id) : ID(id)
 {
-    timeofEntry = std::time(nullptr);
+    timeOfEntry = std::time(nullptr);
 }
 
 int Vehicle::getID() const
