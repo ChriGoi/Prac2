@@ -1,4 +1,5 @@
-
+#ifndef Bus_H
+#define Bus_H
 #include <iostream>
 #include <string>
 #include "Vehicle.h"
@@ -9,3 +10,5 @@ public:
     Bus(int id);
     int getParkingDuration() const;
 };
+
+#endif

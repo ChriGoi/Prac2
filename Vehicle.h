@@ -1,15 +1,19 @@
+#ifndef Vehicle_H
+#define Vehicle_H
+
 #include <iostream>
-#include <string>
 #include <ctime>
+#include <string>
 
 class Vehicle
 {
 protected:
-    std::time_t timeofEntry;
+    std::time_t timeOfEntry;
     int ID;
 
 public:
+    virtual int getParkingDuration() const = 0;
     Vehicle(int id);
     int getID() const;
-    virtual int getParkingDuration() const = 0;
 };
+#endif
