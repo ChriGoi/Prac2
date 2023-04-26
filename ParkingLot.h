@@ -1,6 +1,19 @@
-#include <stdio.h>
+#ifndef ParkingLot_H
+#define ParkingLot_H
 
-int main()
+#include <iostream>
+#include <ctime>
+#include <string>
+
+class ParkingLot
 {
-    return 0;
-}
+protected:
+    std::time_t timeOfEntry;
+    int ID;
+
+public:
+    virtual int getParkingDuration() const = 0;
+    Vehicle(int id);
+    int getID() const;
+};
+#endif
