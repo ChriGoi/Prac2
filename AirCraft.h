@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-Class AirCraft();
+class AirCraft();
 {
     AirCraft(int w); // creates an Aircraft with weight w
 private:
